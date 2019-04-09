@@ -20,3 +20,4 @@ def test_command_metaclass4():
     Help = command.commands[command.Help.name]
     result = Help().run(args=None)
     assert "Available commands:" in result
+    
